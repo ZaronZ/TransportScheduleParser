@@ -144,6 +144,8 @@ func format(stopInfoJson *StopInfoJson) string {
 					}
 					if len(estimated) > 0 {
 						busInfo.Estimated = append(busInfo.Estimated, estimated)
+					}
+					if len(scheduled) > 0 
 						busInfo.Scheduled = append(busInfo.Scheduled, scheduled)
 					}
 				}
